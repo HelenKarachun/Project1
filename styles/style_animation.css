@@ -1,0 +1,30 @@
+.container4 .card-img {
+    position: relative;
+}
+
+.container4 .pic-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    opacity: 0;
+    transition: 1s;
+}
+
+.container4 .pic-caption h3 {
+    padding-top: 165px;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 42px;
+    line-height: 121%;
+    color: #f2f2f2;
+}
+
+.container4 .card-img:hover .bottom-to-top {
+    top: 0;
+    opacity: 1;
+    cursor: pointer;
+}
