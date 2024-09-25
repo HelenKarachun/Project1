@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,700;1,700&family=Playfair+Display:ital@0;1&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/style_animation.css">
     <link rel="stylesheet" href="styles/mobile.css">
@@ -27,7 +29,7 @@
             <div class="burger">
                 <img src="images/burger.svg" alt="burger">
             </div>
-            <h1>The quick brown fox jumps over the lazy dog.</h1>
+            <h1 class="animate__heartBeat">The quick brown fox jumps over the lazy dog.</h1>
         </div>
         <!--Section 2-->
         <div class="container2">
@@ -44,8 +46,9 @@
                     diam tellus consectetur ligula, nec aliquet mauris.</p>
             </div>
             <h3>Lorem ipsum dolor sit amet.</h3>
-            <p class="description">                
-                Lox is a destiny. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices, augue quis egestas pretium, diam
+            <p class="description">
+                Lox is a destiny. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices, augue quis
+                egestas pretium, diam
                 tellus consectetur ligula, nec aliquet mauris sem non dui. Vestibulum id sodales massa. Sed venenatis
                 quam non felis rhoncus tempor.
                 <br><br>
@@ -167,8 +170,12 @@
 
             </div>
         </footer>
-
     </div>
+    
+    <script src="JavaScript/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 
 </body>
 
